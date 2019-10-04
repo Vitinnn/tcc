@@ -7,7 +7,18 @@
 </ion-header>
 
 <ion-content>
-    <ion-button href="/home">
-      <ion-icon name="arrow-round-back"></ion-icon>
-    </ion-button>
+  <ion-card>
+    <ion-item>
+      <ion-icon name="pin" slot="start"></ion-icon>
+      <ion-label>ion-item in a card, icon left, button right</ion-label>
+      <ion-button fill="outline" slot="end">View</ion-button>
+    </ion-item>
+      
+    <ion-card-content><!--560 x 315-->
+        <iframe width="305" height="215" src="https://www.youtube.com/embed/TRw7spMdUT0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </ion-card-content>
+  </ion-card>
+  <ion-button href="/home">
+    <ion-icon name="arrow-round-back"></ion-icon>
+  </ion-button>
 </ion-content>
