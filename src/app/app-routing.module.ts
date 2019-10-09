@@ -7,7 +7,9 @@ const routes: Routes = [
   { path: 'receitas', loadChildren: './receitas/receitas.module#ReceitasPageModule' },
   { path: 'saude', loadChildren: './saude/saude.module#SaudePageModule' },
   { path: 'entretenimento', loadChildren: './entretenimento/entretenimento.module#EntretenimentoPageModule' },
-  { path: 'tecnologia', loadChildren: './tecnologia/tecnologia.module#TecnologiaPageModule' },
+  { path: 'tecnologia', loadChildren: './tecnologia/tecnologia.module#TecnologiaPageModule' },  { path: 'limpeza', loadChildren: './limpeza/limpeza.module#LimpezaPageModule' },
+  { path: 'jogos', loadChildren: './jogos/jogos.module#JogosPageModule' },
+
 ];
 
 @NgModule({
